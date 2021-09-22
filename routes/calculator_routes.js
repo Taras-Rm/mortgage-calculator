@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const { check, validationResult } = require('express-validator');
-const Bank = require('../models/Bank');
+const Bank = require('../models/bank');
 
 const router = Router();
 
