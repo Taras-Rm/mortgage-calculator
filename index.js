@@ -4,7 +4,7 @@ const path = require('path');
 const mongoose = require('mongoose');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 app.use(express.json({ extended: true }));
 app.use('/api/banks', require('./routes/banks_routes'));
